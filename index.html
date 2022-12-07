@@ -12,82 +12,98 @@
     <title>CSM | Home</title>
   </head>
 
-  <body id="index_grid">
+  <body>
     <header>
+      <section>
+        <div id="header_info">
+          <div>
+            <a href="index.html">
+              <img
+                src="/logos/CSM_logo.png"
+                alt="community science museum logo"
+                id="csm_logo"
+              />
+            </a>
+          </div>
+          <div>
+            <p><span>OPEN</span> 10:00 - 16:00</p>
+            <input type="checkbox" id="opening-hours_checkbox" />
+            <label for="opening-hours_checkbox"
+              ><img
+                src="/icons/clock_flaticon.png"
+                id="opening-hours_icon"
+                alt="view opening hours"
+            /></label>
+            <nav id="opening-hours_menu">
+              <p>MONDAY CLOSED</p>
+              <p>TUE, WED, THU</p>
+              <p>10:00 - 16:00</p>
+              <p>FRIDAY</p>
+              <p>10:00 - 19:00</p>
+              <p>SATURDAY</p>
+              <p>09:00 - 16:00</p>
+              <p>SUNDAY</p>
+              <p>09:00 - 13:00</p>
+            </nav>
+          </div>
+        </div>
+        <div id="triangle"></div>
+      </section>
+
+      <nav id="top_nav">
+        <div>
+          <a href="exhibits.html">EXHIBITS</a>
+          <a href="explore.html">EXPLORE</a>
+          <a href="events.html">EVENTS</a>
+        </div>
+      </nav>
+    </header>
+    <div id="hero_background"></div>
+    <section id="index_exhibits">
       <div>
-        <a href="index.html">
-          <img
-            src="/logos/CSM_logo.png"
-            alt="community science museum logo"
-            id="csm_logo"
-          />
+        <a href="">
+          <img src="/images/exhibits_images/cosmology_hexagon.png" />
+          <p>COSMOLOGY</p>
         </a>
       </div>
+
       <div>
-        <p><span>OPEN</span> 10:00 - 16:00</p>
-        <img
-          src="/icons/clock_flaticon.png"
-          id="opening-hours_icon"
-          alt="view opening hours"
-        />
+        <a href="">
+          <img src="/images/exhibits_images/evolution_hexagon.png" />
+          <p>EVOLUTION</p>
+        </a>
       </div>
-    </header>
 
-    <div id="hero_background"></div>
-    <div id="triangle"></div>
-    <nav id="top_nav">
       <div>
-        <a href="">EXHIBITS</a>
-        <a href="">EXPLORE</a>
-        <a href="">EVENTS</a>
+        <a href="">
+          <img src="/images/exhibits_images/biology_hexagon.png" />
+          <p>BIOLOGY & MEDS</p>
+        </a>
       </div>
-    </nav>
 
-    <section id="index_exhibits">
-      <div id="sec1">
-        <div>
-          <a href="">
-            <img src="/images/exhibits_images/cosmology_hexagon.png" />
-            <p>COSMOLOGY</p>
-          </a>
-        </div>
+      <div>
+        <a href="">
+          <img src="/images/exhibits_images/robotics_hexagon.png" />
+          <p>ROBOTICS & AI</p>
+        </a>
+      </div>
 
-        <div>
-          <a href="">
-            <img src="/images/exhibits_images/evolution_hexagon.png" />
-            <p>EVOLUTION</p>
-          </a>
-        </div>
-
-        <div>
-          <a href="">
-            <img src="/images/exhibits_images/biology_hexagon.png" />
-            <p>BIOLOGY & MEDS</p>
-          </a>
-        </div>
-
-        <div>
-          <a href="">
-            <img src="/images/exhibits_images/robotics_hexagon.png" />
-            <p>ROBOTICS & AI</p>
-          </a>
-        </div>
-
-        <div>
-          <a href="">
-            <img src="/images/exhibits_images/ecology_hexagon.png" />
-            <p>ECOLOGY</p>
-          </a>
-        </div>
+      <div>
+        <a href="">
+          <img src="/images/exhibits_images/ecology_hexagon.png" />
+          <p>ECOLOGY</p>
+        </a>
       </div>
     </section>
 
-    <section id="index_explore">
-      <div>
-        <h1>We got tailored experiences for kids, teens and adults</h1>
-        <p>Have a look at our recommendations</p>
-      </div>
-    </section>
+    <a href="" id="index_explore">
+      <section>
+        <div>
+          <h1>We got tailored experiences for kids, teens and adults</h1>
+          <p>Have a look at our recommendations</p>
+        </div>
+      </section>
+    </a>
 
     <section id="index_events">
       <div id="index_events_wrapper">
@@ -123,23 +139,27 @@
     </section>
 
     <section id="index_reviews">
-      <img src="/images/reviews_images/person-1_reviews.png" />
-      <p>
-        I'm so impressed! Everything is SO wholesome, and there is always new
-        things to explore on each visit!
-      </p>
-      <img src="/images/reviews_images/person-2_reviews.png" />
-      <p>
-        My kids were invited to a birthday party here, and now they're nagging
-        non-stop about going back! The evolution exhibit were their favorite.
-        I'm certain they know every dinosaur species by heart!
-      </p>
+      <div>
+        <img src="/images/reviews_images/person-1_reviews.png" />
+        <p>
+          I'm so impressed! Everything is SO wholesome, and there is always new
+          things to explore on each visit!
+        </p>
+      </div>
+      <div>
+        <img src="/images/reviews_images/person-2_reviews.png" />
+        <p>
+          My kids were invited to a birthday party here, and now they're nagging
+          non-stop about going back! The evolution exhibit were their favorite.
+          I'm certain they know every dinosaur species by heart!
+        </p>
+      </div>
     </section>
 
     <footer>
       <div id="footer_nav">
-        <a href="">ABOUT US</a>
-        <a href="">CONTACT US</a>
+        <a href="about-us.html">ABOUT US</a>
+        <a href="contact-us.html">CONTACT US</a>
       </div>
       <div id="SM_icons">
         <img src="/icons/facebook_flaticon.png" />
