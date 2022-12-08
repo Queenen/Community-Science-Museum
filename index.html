@@ -26,7 +26,7 @@
             </a>
           </div>
           <div>
-            <p><span>OPEN</span> 10:00 - 16:00</p>
+            <p id="opening-time"><span>OPEN</span> 10:00 - 16:00</p>
             <input type="checkbox" id="opening-hours_checkbox" />
             <label for="opening-hours_checkbox"
               ><img
@@ -35,15 +35,26 @@
                 alt="view opening hours"
             /></label>
             <nav id="opening-hours_menu">
-              <p>MONDAY CLOSED</p>
-              <p>TUE, WED, THU</p>
-              <p>10:00 - 16:00</p>
-              <p>FRIDAY</p>
-              <p>10:00 - 19:00</p>
-              <p>SATURDAY</p>
-              <p>09:00 - 16:00</p>
-              <p>SUNDAY</p>
-              <p>09:00 - 13:00</p>
+              <div class="closed">
+                <p>MONDAY</p>
+                <p>CLOSED</p>
+              </div>
+              <div class="open">
+                <p>TUE, WED, THU</p>
+                <p>10:00 - 16:00</p>
+              </div>
+              <div class="open">
+                <p>FRIDAY</p>
+                <p>10:00 - 19:00</p>
+              </div>
+              <div class="open">
+                <p>SATURDAY</p>
+                <p>09:00 - 16:00</p>
+              </div>
+              <div class="open">
+                <p>SUNDAY</p>
+                <p>09:00 - 13:00</p>
+              </div>
             </nav>
           </div>
         </div>
@@ -61,42 +72,42 @@
     <div id="hero_background"></div>
     <section id="index_exhibits">
       <div>
-        <a href="">
+        <a href="exhibits.html">
           <img src="/images/exhibits_images/cosmology_hexagon.png" />
           <p>COSMOLOGY</p>
         </a>
       </div>
 
       <div>
-        <a href="">
+        <a href="exhibits.html">
           <img src="/images/exhibits_images/evolution_hexagon.png" />
           <p>EVOLUTION</p>
         </a>
       </div>
 
       <div>
-        <a href="">
+        <a href="exhibits.html">
           <img src="/images/exhibits_images/biology_hexagon.png" />
           <p>BIOLOGY & MEDS</p>
         </a>
       </div>
 
       <div>
-        <a href="">
+        <a href="exhibits.html">
           <img src="/images/exhibits_images/robotics_hexagon.png" />
           <p>ROBOTICS & AI</p>
         </a>
       </div>
 
       <div>
-        <a href="">
+        <a href="exhibits.html">
           <img src="/images/exhibits_images/ecology_hexagon.png" />
           <p>ECOLOGY</p>
         </a>
       </div>
     </section>
 
-    <a href="" id="index_explore">
+    <a href="explore.html" id="index_explore">
       <section>
         <div>
           <h1>We got tailored experiences for kids, teens and adults</h1>
@@ -131,7 +142,7 @@
         </div>
       </div>
       <div id="view-all-events">
-        <a href=""
+        <a href="events.html"
           >View all events
           <img src="/icons/arrow_flaticon.png" id="arrow_icon" />
         </a>
@@ -139,14 +150,14 @@
     </section>
 
     <section id="index_reviews">
-      <div>
+      <div id="index_review_1">
         <img src="/images/reviews_images/person-1_reviews.png" />
         <p>
           I'm so impressed! Everything is SO wholesome, and there is always new
           things to explore on each visit!
         </p>
       </div>
-      <div>
+      <div id="index_review_2">
         <img src="/images/reviews_images/person-2_reviews.png" />
         <p>
           My kids were invited to a birthday party here, and now they're nagging

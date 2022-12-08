@@ -79,7 +79,7 @@ a:hover {
 }
 
 header p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--white);
     letter-spacing: 0.2rem;
 }
@@ -106,36 +106,44 @@ header span {
 }
 
 #opening-hours_menu {
-    margin-top: 2rem;
-    padding: 0 5rem 2rem 5rem;
+    display: flex;
     position: absolute;
-    z-index: 2;
-    right: 0;
-    width: 20%;
+    text-align: center;
+    z-index: 3;
+    top: 5rem;
+    left: 0;
+    width: 100%;
     background-color: var(--dark-brown);
+    padding: 1rem 1rem 0 1rem;
     display: none;
 }
 
-#opening-hours_menu p {
-    margin: 1rem 0;
-    text-align: center;
+#opening-hours_menu div {
+    display: inline-flex;
+    flex-flow: column;
+    margin: 0.5rem 1rem;
 }
 
-#opening-hours_menu p:nth-child(even) {
-    color: var(--green);
-}
 
-#opening-hours_menu p:nth-child(1) {
-    color: var(--red);
-    margin-top: 2rem;
-}
 
 #opening-hours_checkbox:checked ~ #opening-hours_menu {
     display: block;
 }
 
+#opening-hours_checkbox:checked ~ #top_nav div {
+    margin-top: 10rem;
+}
+
 #opening-hours_checkbox {
     display: none;
+}
+
+.open p:nth-child(1) {
+    color: var(--green);
+}
+
+.closed p {
+    color: var(--red);
 }
 
 /* INDEX SECTION */
@@ -157,7 +165,7 @@ header span {
 }
 
 #top_nav div {
-    margin-top: 5rem;
+    margin-top: 7rem;
     position: absolute;
 }
 
@@ -316,6 +324,15 @@ header span {
 
 #index_reviews div:nth-child(2) {
     flex-direction: row-reverse;
+    margin-top: 2rem;
+}
+
+#index_review_1 img {
+    margin-top: -0.3rem;
+}
+
+#index_review_2 p {
+    margin-top: 1.8rem;
 }
 
 /* EXHIBITS */
@@ -390,19 +407,24 @@ header span {
 #children img {
     margin: 10rem auto 2rem auto;
     display: block;
+    margin-bottom: -7rem;
+    position: relative;
+    z-index: 2;
 }
 
 #children span,
 #teachers span,
 #researchers span {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: bold;
+    color: var(--white);
+    margin-right: 0;
 }
 
 #children h3,
 #teachers h3,
 #researchers h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--white);
     letter-spacing: 0.2rem;
     text-align: center;
@@ -413,14 +435,16 @@ header span {
 #teachers p,
 #researchers p {
     color: var(--white);
+    font-size: 1.2rem;
     margin: 2rem 5rem;
+    letter-spacing: 0;
     font-family: "Amiko_Regular";
 }
 
 #children div,
 #teachers div,
 #researchers div {
-    padding: 2rem 5rem;
+    padding: 10rem 5rem 5rem 5rem;
     background-color: var(--dark-brown);
     opacity: 90%;
 }
@@ -429,6 +453,9 @@ header span {
 #researchers img {
     margin: 2rem auto 2rem auto;
     display: block;
+    margin-bottom: -7rem;
+    position: relative;
+    z-index: 2;
 }
 
 /* EVENTS */
@@ -459,6 +486,7 @@ header span {
 #events_section span {
     font-size: 1.8rem;
     color: var(--white);
+    margin-right: 0;
 }
 
 #image-container {
@@ -535,7 +563,9 @@ header span {
 #about-us_section p {
     margin: 1.5rem 10rem;
     font-family: "Amiko_Regular";
+    color: var(--black);
     font-size: 1.2rem;
+    letter-spacing: 0;
     line-height: 1.5rem;
 }
 
@@ -566,6 +596,7 @@ header span {
     font-family: "Amiko_Regular";
     font-size: 1.2rem;
     line-height: 1.5rem;
+    letter-spacing: 0;
     color: var(--white);
 }
 
@@ -583,7 +614,7 @@ header span {
     display: flex;
     flex-direction: column;
     margin: 1rem;
-    width: 15rem;
+    width: 20rem;
     height: 15rem;
     text-align: center;
     background-color: var(--red);
@@ -591,7 +622,6 @@ header span {
 
 .contact_box p,
 .contact_box h2 {
-    width: 15rem;
     margin: 1.5rem 0;
     color: var(--white);
 }
@@ -643,4 +673,134 @@ footer a {
 footer img {
     width: 2rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+    #index_events_wrapper h3,
+    #index_events_wrapper p
+     {
+        text-align: center;
+    }
+    #view-all-events a {
+        margin-left: 1rem;
+    }
+
+    }
+
+@media screen and (max-width: 594px) {
+    
+header span {
+    display: none;
+}
+
+#opening-time {
+    color: var(--green);
+    font-size: 1.2rem;
+}
+}
+
+@media screen and (max-width: 504px) {
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    #top_nav a {
+        margin: 1rem;
+    } 
+    #index_reviews div,
+    #index_reviews div:nth-child(2),
+    #index-reviews img {
+        flex-direction: column;
+        text-align: center;
+        display: block;
+    }
+    }
+
+@media screen and (max-width: 469px) {
+    #hero_background {
+        background-position: 25% 100%;
+        height: 30rem;
+    }
+    footer a {
+        font-size: 1.2rem;
+    }
+    #opening-time {
+        visibility: hidden;
+    }
+    }
+
+@media screen and (max-width: 448px) {
+    #index_exhibits img {
+        width: 12rem;
+    }
+    #index_exhibits,
+    #index_events {
+        padding: 1rem;
+    }
+
+    #index_exhibits p {
+        font-size: 1.2rem;
+    }
+
+    #night-museum_img, 
+    #space-shuttle_img {
+        width: 20rem;
+        display: block;
+        margin: 2rem auto;
+    }
+
+    #index_events_wrapper h3,
+    #index_events_wrapper p {
+        width: 20rem;
+    }
+
+    #view-all-events img {
+        width: 2rem;
+    }
+    #arrow_icon {
+        margin-bottom: -0.7rem;
+    }
+
+    #view-all-events a,
+    #view-all-events a:hover {
+        font-size: 1rem;
+    }
+        }
+
+@media screen and (max-width: 408px) {
+    #top_nav div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        letter-spacing: 0.4rem;
+        margin-top: 6.5rem;
+    }
+
+    #hero_background {
+        height: 25rem;
+        background-position: 25% 80%;
+    }
+
+    #index_explore h1 {
+        font-size: 1.2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    #index_explore {
+        padding: 2rem;
+    }
+
+    #opening-hours_menu {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #opening-hours_menu div {
+        margin: 0.5rem 2rem;
+    }
+}
+    
+
 
