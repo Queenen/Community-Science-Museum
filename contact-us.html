@@ -26,7 +26,7 @@
             </a>
           </div>
           <div>
-            <p><span>OPEN</span> 10:00 - 16:00</p>
+            <p id="opening-time"><span>OPEN</span> 10:00 - 16:00</p>
             <input type="checkbox" id="opening-hours_checkbox" />
             <label for="opening-hours_checkbox"
               ><img
@@ -35,15 +35,26 @@
                 alt="view opening hours"
             /></label>
             <nav id="opening-hours_menu">
-              <p>MONDAY CLOSED</p>
-              <p>TUE, WED, THU</p>
-              <p>10:00 - 16:00</p>
-              <p>FRIDAY</p>
-              <p>10:00 - 19:00</p>
-              <p>SATURDAY</p>
-              <p>09:00 - 16:00</p>
-              <p>SUNDAY</p>
-              <p>09:00 - 13:00</p>
+              <div class="closed">
+                <p>MONDAY</p>
+                <p>CLOSED</p>
+              </div>
+              <div class="open">
+                <p>TUE, WED, THU</p>
+                <p>10:00 - 16:00</p>
+              </div>
+              <div class="open">
+                <p>FRIDAY</p>
+                <p>10:00 - 19:00</p>
+              </div>
+              <div class="open">
+                <p>SATURDAY</p>
+                <p>09:00 - 16:00</p>
+              </div>
+              <div class="open">
+                <p>SUNDAY</p>
+                <p>09:00 - 13:00</p>
+              </div>
             </nav>
           </div>
         </div>
