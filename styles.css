@@ -4,6 +4,7 @@
     --black: black;
     --white: white;
     --dark-brown: #463434;
+    --fallback-gray: rgb(58, 57, 57);
     --light-gray: #DFE1DE;
     --cream: #F9F7F4;
     --red: #C23C3C;
@@ -212,7 +213,7 @@ header span {
 
 #index_explore {
     background-image: url("/images/index_images/william-bout-264826.jpg");
-    background-color: rgb(58, 57, 57);
+    background-color: var(--fallback-gray);
     background-position: 50% 60%;
     height: fit-content;
     display: flex;
@@ -380,7 +381,7 @@ header span {
 
 #evolution {
     background-image: url("/images/exhibits_images/evolution_pixabay.jpg");
-    background-color: rgb(58, 57, 57);
+    background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 30% 40%;
     height: 30rem;
@@ -388,7 +389,7 @@ header span {
 
 #biology {
     background-image: url("/images/exhibits_images/biology_pixabay.jpg");
-    background-color: rgb(58, 57, 57);
+    background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 30% 40%;
     height: 30rem;
@@ -396,7 +397,7 @@ header span {
 
 #robotics {
     background-image: url("/images/exhibits_images/robotics_pixabay.jpg");
-    background-color: rgb(58, 57, 57);
+    background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 50% 20%;
     height: 30rem;
@@ -404,7 +405,7 @@ header span {
 
 #ecology {
     background-image: url("/images/exhibits_images/ecology_pixabay.jpg");
-    background-color: rgb(58, 57, 57);
+    background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 30% 20%;
     height: 30rem;
@@ -414,6 +415,7 @@ header span {
 
 #explore_background {
     background-image: url("/images/explore_images/mavis-cw-164128.jpg");
+    background-color: var(--fallback-gray);
     background-size: cover;
     height: auto;
 
@@ -597,6 +599,7 @@ header span {
 
 #contact-us_bg {
     background-image: url("/images/contact-us_images/samuel-zeller-113381.jpg");
+    background-color: var(--fallback-gray);
     background-size: cover;
     height: fit-content;
     background-position: 50% 45%;
