@@ -150,6 +150,7 @@ header span {
 
 #hero_background {
     background-image: url("/images/index_images/VR_image.jpg");
+    background-color: var(--dark-brown);
     background-size: cover;
     background-position: 25% 60%;
     height: 40rem;
@@ -203,6 +204,7 @@ header span {
 
 #index_explore {
     background-image: url("/images/index_images/william-bout-264826.jpg");
+    background-color: rgb(34, 31, 31);
     background-position: 50% 60%;
     height: fit-content;
     display: flex;
