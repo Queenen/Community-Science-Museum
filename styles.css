@@ -163,6 +163,7 @@ header span {
     justify-content: space-between;
     justify-content: center;
     flex-wrap: nowrap;
+    background-color: var(--fallback-gray);
 
 }
 
