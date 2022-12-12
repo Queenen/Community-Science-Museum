@@ -179,12 +179,20 @@ header span {
 /* INDEX_EXHIBITS */
 
 #index_exhibits {
-    padding: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     text-align: center;
+    padding: 3rem;
     background-color: var(--light-gray);
+
+}
+
+#index_exhibits div {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#index_exhibits p {
+    display: grid;
 }
 
 #index_exhibits p {
@@ -204,7 +212,7 @@ header span {
 
 #index_explore {
     background-image: url("/images/index_images/william-bout-264826.jpg");
-    background-color: rgb(34, 31, 31);
+    background-color: rgb(58, 57, 57);
     background-position: 50% 60%;
     height: fit-content;
     display: flex;
@@ -364,6 +372,7 @@ header span {
 
 #cosmology {
     background-image: url("/images/exhibits_images/cosmology_pixabay.jpg");
+    background-color: rgb(58, 57, 57);
     background-size: cover;
     background-position: 30% 65%;
     height: 30rem;
@@ -371,6 +380,7 @@ header span {
 
 #evolution {
     background-image: url("/images/exhibits_images/evolution_pixabay.jpg");
+    background-color: rgb(58, 57, 57);
     background-size: cover;
     background-position: 30% 40%;
     height: 30rem;
@@ -378,6 +388,7 @@ header span {
 
 #biology {
     background-image: url("/images/exhibits_images/biology_pixabay.jpg");
+    background-color: rgb(58, 57, 57);
     background-size: cover;
     background-position: 30% 40%;
     height: 30rem;
@@ -385,6 +396,7 @@ header span {
 
 #robotics {
     background-image: url("/images/exhibits_images/robotics_pixabay.jpg");
+    background-color: rgb(58, 57, 57);
     background-size: cover;
     background-position: 50% 20%;
     height: 30rem;
@@ -392,6 +404,7 @@ header span {
 
 #ecology {
     background-image: url("/images/exhibits_images/ecology_pixabay.jpg");
+    background-color: rgb(58, 57, 57);
     background-size: cover;
     background-position: 30% 20%;
     height: 30rem;
@@ -798,10 +811,9 @@ header span {
     
     }
 
+
 @media screen and (max-width: 448px) {
-    #index_exhibits img {
-        width: 12rem;
-    }
+
     #index_exhibits,
     #index_events {
         padding: 1rem;
