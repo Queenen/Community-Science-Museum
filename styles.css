@@ -584,7 +584,7 @@ header span {
     background-image: url("/images/contact-us_images/samuel-zeller-113381.jpg");
     background-size: cover;
     height: fit-content;
-    background-position: 0 45%;
+    background-position: 50% 45%;
 }
 
 #contact-us_bg h1 {
@@ -793,6 +793,7 @@ header span {
     #opening-time {
         visibility: hidden;
     }
+    
     }
 
 @media screen and (max-width: 448px) {
@@ -848,7 +849,7 @@ header span {
         flex-wrap: nowrap;
         text-align: center;
         letter-spacing: 0.4rem;
-        margin-top: 6.5rem;
+        margin-top: 7rem;
     }
 
     #hero_background {
@@ -863,6 +864,10 @@ header span {
 
     #index_explore {
         padding: 2rem;
+    }
+
+    #opening-hours_icon {
+        margin: 1rem 2rem 0 2rem;
     }
 
     #opening-hours_menu {
