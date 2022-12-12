@@ -28,7 +28,7 @@
 }
 
 * {
-    font-family: 'Amiko_Semi-Bold';
+    font-family: 'Amiko_Semi-Bold', Arial;
     font-size: 62,5%;
     margin: 0;
     padding: 0;
@@ -251,7 +251,7 @@ header span {
 }
 
 #index_events_wrapper p {
-    font-family: 'Amiko_Regular';
+    font-family: 'Amiko_Regular', Arial;
     font-size: 1rem;
 }
 
@@ -313,7 +313,7 @@ header span {
 
 #index_reviews p {
     margin-top: 2.2rem;
-    font-family: 'Amiko_Regular';
+    font-family: 'Amiko_Regular', Arial;
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -357,7 +357,7 @@ header span {
 }
 
 .exhibits p {
-    font-family: "Amiko_Regular";
+    font-family: "Amiko_Regular", Arial;
 }
 
 #cosmology {
@@ -437,7 +437,7 @@ header span {
     font-size: 1.2rem;
     margin: 2rem 5rem;
     letter-spacing: 0;
-    font-family: "Amiko_Regular";
+    font-family: "Amiko_Regular", Arial;
 }
 
 #children div,
@@ -511,7 +511,7 @@ header span {
 
 #events_content p {
     font-size: 1.2rem;
-    font-family: "Amiko_Regular";
+    font-family: "Amiko_Regular", Arial;
     color: var(--white);
     letter-spacing: 0;
 }
@@ -571,7 +571,7 @@ header span {
 
 #about-us_section p {
     margin: 1.5rem 8rem;
-    font-family: "Amiko_Regular";
+    font-family: "Amiko_Regular", Arial;
     color: var(--black);
     font-size: 1.2rem;
     letter-spacing: 0;
@@ -606,7 +606,7 @@ p.contact-us_content {
 
 .contact-us_content {
     padding: 0 3rem;
-    font-family: "Amiko_Regular";
+    font-family: "Amiko_Regular", Arial;
     font-size: 1.2rem;
     line-height: 1.5rem;
     letter-spacing: 0;
