@@ -429,16 +429,23 @@ header span {
     background-color: var(--fallback-gray);
     background-size: contain;
     background-repeat: repeat-y;
-    height: auto;
 
+}
+
+.faded-bg {
+    background-color:rgba(0,0,0,0.7);
 }
 
 #children img {
     margin: 12rem auto 2rem auto;
     display: block;
-    margin-bottom: -7rem;
-    position: relative;
-    z-index: 2;
+
+}
+
+#teachers img,
+#researchers img {
+    margin: 2rem auto 2rem auto;
+    display: block;
 }
 
 #children span,
@@ -453,20 +460,12 @@ header span {
 #children h3,
 #teachers h3,
 #researchers h3 {
-    margin-top: 7rem;
+    margin: 1rem;
     font-family: 'Monoton_Regular';
     font-size: 1.2rem;
     color: var(--white);
     letter-spacing: 0.2rem;
     text-align: center;
-}
-
-#children div,
-#teachers div,
-#researchers div {
-    padding: 2rem;
-    background-color:rgba(0,0,0,0.7);
-    height: fit-content;
 }
 
 #children p,
@@ -475,19 +474,14 @@ header span {
     color: var(--white);
     text-align: center;
     font-size: 1.2rem;
-    margin: 2rem 5rem;
+    padding: 1rem 5rem;
     line-height: 1.5rem;
     letter-spacing: 0;
     font-family: "Amiko_Regular", Arial;
 }
 
-#teachers img,
-#researchers img {
-    margin: 2rem auto 2rem auto;
-    display: block;
-    margin-bottom: -7rem;
-    position: relative;
-    z-index: 2;
+#researchers p:nth-child(3) {
+    padding-bottom: 3rem;
 }
 
 /* EVENTS */
@@ -752,13 +746,7 @@ footer img {
     #children p,
     #teachers p,
     #researchers p {
-        margin: 2rem 2rem;
-    }
-
-    #children div, 
-    #teachers div, 
-    #researchers div {
-        padding: 2rem;
+        padding: 1rem 3rem;
     }
 
     #events_content p,
