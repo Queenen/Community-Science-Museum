@@ -69,6 +69,13 @@ a:hover {
     margin: 0.3rem 2rem 0 2rem;
 }
 
+#header-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+
 #header_info {
     padding: 0.5rem 0;
     background-color: var(--dark-brown);
@@ -173,7 +180,7 @@ header span {
 }
 
 #top_nav div {
-    margin-top: 7rem;
+    margin-top: 10rem;
     position: absolute;
 }
 
@@ -387,7 +394,7 @@ header span {
     background-color: rgb(58, 57, 57);
     background-size: cover;
     background-position: 30% 65%;
-    height: 30rem;
+    height: 35rem;
 }
 
 #evolution {
@@ -437,7 +444,7 @@ header span {
 }
 
 #children img {
-    margin: 12rem auto 2rem auto;
+    margin: 15rem auto 2rem auto;
     display: block;
 
 }
@@ -818,7 +825,7 @@ header span {
 
 @media screen and (max-width: 469px) {
     #hero_background {
-        background-position: 25% 100%;
+        background-position: 25% 80%;
         height: 30rem;
     }
     footer a {
@@ -889,12 +896,6 @@ header span {
         flex-wrap: nowrap;
         text-align: center;
         letter-spacing: 0.4rem;
-        margin-top: 5rem;
-    }
-
-    #hero_background {
-        height: 25rem;
-        background-position: 25% 80%;
     }
 
     #index_explore h1 {
@@ -923,26 +924,25 @@ header span {
     }
 
     #cosmology h1 {
-        margin-top: 19rem;
+        margin-top: 24rem;
 
     }
 
     #children
      {
-        margin-top: 20rem;
+        margin-top: 23rem;
     }
 
     #events_nav_bg {
-        padding-bottom: 7rem;
+        padding-bottom: 12rem;
     }
 
     #chemistry_image {
-        margin-top: -13rem;
+        margin-top: -10rem;
     }
 
-    #about-us_nav_bg h1,
-    #contact-us_bg h1 {
-        margin-top: 8rem;
+    #about-us_nav_bg h1 {
+        margin-top: 12rem;
     }
 
     #about-us_nav_bg {
@@ -950,7 +950,7 @@ header span {
     }
 
     #contact-us_bg h1 {
-        margin-top: 20rem;
+        margin-top: 23rem;
     }
 }
     
