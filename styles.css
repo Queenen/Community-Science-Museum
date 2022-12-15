@@ -3,7 +3,7 @@
 :root {
     --black: black;
     --white: white;
-    --dark-brown: rgb(50, 34, 34);
+    --dark-brown: #322222;
     --fallback-gray: rgb(58, 57, 57);
     --light-gray: #daefda;
     --cream: #F0F0EC;
@@ -67,6 +67,7 @@ a:hover {
 
 .active {
     color: var(--orange);
+    font-family: 'Amiko_Bold';
 }
 
 /* GLOBAL HEADER */
@@ -107,6 +108,7 @@ header p {
 header span {
     color: var(--green);
     margin-right: 1rem;
+    font-family: 'Amiko_Bold';
 }
 
 #opening-hours_icon {
@@ -204,7 +206,10 @@ header span {
     text-align: center;
     padding: 3rem;
     background-color: var(--cream);
+}
 
+#index_exhibits p {
+    font-family: 'Amiko_Bold';
 }
 
 #index_exhibits div {
@@ -215,9 +220,6 @@ header span {
 
 #index_exhibits p {
     display: grid;
-}
-
-#index_exhibits p {
     color: var(--black);
 }
 
@@ -252,7 +254,7 @@ header span {
 
 #index_explore h1 {
     letter-spacing: 0.2rem;
-    font-weight: 100;
+    font-family: 'Amiko_Bold';
     color: var(--white);
 
 }
@@ -284,7 +286,7 @@ header span {
 
 #index_events_wrapper p {
     font-family: 'Amiko_Regular', Arial;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #index_events_wrapper p,
@@ -295,6 +297,7 @@ header span {
 
 #index_events_wrapper h3 {
     font-size: 1.2rem;
+    font-family: 'Amiko_bold';
     margin-bottom: 1rem;
 }
 
@@ -304,6 +307,7 @@ header span {
 
 #index_events {
     padding: 3rem;
+    text-align: center;
     background-color: var(--light-gray);
 }
 
@@ -315,6 +319,7 @@ header span {
 }
 
 #view-all-events a {
+    font-family: 'Amiko_Bold';
     color: black;
     font-size: 1.2rem;
 }
@@ -326,7 +331,7 @@ header span {
 
 #view-all-events {
     display: flex;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 3rem 2rem 1rem 2rem;
     justify-content: center;
 }
 
@@ -377,11 +382,11 @@ header span {
 
 .exhibits h1 {
     font-family: 'Monoton_Regular';
-    margin: 4rem 0 2rem 0;
+    margin: 9rem 0 2rem 0;
 }
 
 #cosmology h1 {
-    margin: 15rem 0 2rem 0;
+    margin: 19rem 0 2rem 0;
 }
 
 .exhibits h1,
@@ -412,7 +417,7 @@ header span {
     background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 30% 40%;
-    height: 15rem;
+    height: 25rem;
 }
 
 #biology {
@@ -420,7 +425,7 @@ header span {
     background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 30% 40%;
-    height: 15rem;
+    height: 25rem;
 }
 
 #robotics {
@@ -428,7 +433,7 @@ header span {
     background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 50% 20%;
-    height: 15rem;
+    height: 25rem;
 }
 
 #ecology {
@@ -436,7 +441,7 @@ header span {
     background-color: var(--fallback-gray);
     background-size: cover;
     background-position: 30% 20%;
-    height: 15rem;
+    height: 25rem;
 }
 
 /* EXPLORE */
@@ -506,7 +511,7 @@ header span {
 /* EVENTS */
 
 #events_nav_bg {
-    height: 12rem;
+    height: 15rem;
     background-color: var(--dark-brown);
     opacity: 90%;
 }
@@ -575,6 +580,7 @@ header span {
     font-size: 1.6rem;
     color: var(--white);
     letter-spacing: 0.2rem;
+    margin-top: 3rem;
 }
 
 #about-us_nav_bg div:nth-child(2) {
@@ -593,9 +599,10 @@ header span {
 
 #chemistry_image {
     display: flex;
-    margin-top: -15rem;
+    margin-top: -12rem;
     justify-content: center;
     margin-bottom: 10.6rem;
+    
 }
 
 #chemistry_image img {
@@ -621,12 +628,13 @@ header span {
 
 #about-us_section p {
     text-align: center;
-    margin: 1.5rem 5rem;
+    margin: 1.5rem auto;
     font-family: "Amiko_Regular", Arial;
     color: var(--black);
     font-size: 1.2rem;
     letter-spacing: 0;
     line-height: 1.5rem;
+    max-width: 35rem;
 }
 
 /* CONTACT US */
@@ -636,7 +644,7 @@ header span {
     background-color: var(--fallback-gray);
     background-size: cover;
     height: fit-content;
-    background-position: 50% 45%;
+    background-position: 50% 100%;
 }
 
 #contact-us_bg h1 {
@@ -644,7 +652,7 @@ header span {
     font-size: 1.6rem;
     color: var(--white);
     letter-spacing: 0.2rem;
-    margin: 13rem 0 3rem 0;
+    margin: 16rem 0 3rem 0;
 }
 
 #contact-us_bg div:nth-child(2) {
@@ -890,11 +898,6 @@ header span {
         margin-bottom: -0.7rem;
     }
 
-    #view-all-events a,
-    #view-all-events a:hover {
-        font-size: 1rem;
-    }
-
     .exhibits h1 {
         font-size: 1.2rem;
     }
@@ -949,7 +952,7 @@ header span {
     }
 
     #events_nav_bg {
-        padding-bottom: 12rem;
+        height: 25rem;
     }
 
     #chemistry_image {
