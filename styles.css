@@ -348,10 +348,12 @@ header span {
     font-family: 'Amiko_Regular', Arial;
     font-size: 1rem;
     line-height: 1.5;
+    max-width: 35rem;
 }
 
 #index_reviews div {
     display: flex;
+    justify-content: center;
 }
 
 #index_reviews div:nth-child(2) {
@@ -815,6 +817,14 @@ header span {
 #contact-us_content {
     padding: 0;
 }
+
+#index_reviews div,
+#index_reviews div:nth-child(2),
+#index-reviews img {
+    flex-direction: column;
+    text-align: center;
+    display: block;
+}
 }
 
 @media screen and (max-width: 504px) {
@@ -826,13 +836,6 @@ header span {
     #top_nav a {
         margin: 1rem;
     } 
-    #index_reviews div,
-    #index_reviews div:nth-child(2),
-    #index-reviews img {
-        flex-direction: column;
-        text-align: center;
-        display: block;
-    }
     }
 
 @media screen and (max-width: 469px) {
