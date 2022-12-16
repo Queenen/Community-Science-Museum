@@ -9,7 +9,7 @@
     --cream: #F0F0EC;
     --orange: #fec939;
     --green: #21C427;
-    --red: red;
+    --red: #C23C3C;
 }
 
 @font-face {
@@ -510,7 +510,7 @@ header span {
     font-size: 1.4rem;
     color: var(--white);
     letter-spacing: 0.2rem;
-    background-color: red;
+    background-color: var(--red);
     padding: 2rem;
     text-align: center;
 }
