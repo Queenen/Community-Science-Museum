@@ -375,7 +375,8 @@ header span {
     display: grid;
 }
 
-.exhibits h1 {
+.exhibits h1,
+.exhibits h2 {
     font-family: 'Monoton_Regular', Arial;
     margin: 9rem 0 2rem 0;
 }
@@ -385,6 +386,7 @@ header span {
 }
 
 .exhibits h1,
+.exhibits h2,
 .exhibits p {
     display: flex;
     flex-wrap: wrap;
@@ -474,9 +476,9 @@ header span {
     margin-right: 0;
 }
 
-#children h3,
-#teachers h3,
-#researchers h3 {
+#children h1,
+#teachers h2,
+#researchers h2 {
     margin: 1rem;
     font-family: 'Monoton_Regular', Arial;
     font-size: 1.2rem;
@@ -510,7 +512,8 @@ header span {
     opacity: 90%;
 }
 
-#events_section h1 {
+#events_section h1,
+#events_section h2 {
     font-family: 'Monoton_Regular', Arial;
     font-size: 1.4rem;
     color: var(--white);
@@ -520,7 +523,7 @@ header span {
     text-align: center;
 }
 
-#events_section h2 {
+#events_section h3 {
     font-family: 'Amiko_Bold', Arial;
     font-size: 1.4rem;
     text-align: center;
@@ -542,7 +545,7 @@ header span {
     background-color: var(--cream);
 }
 
-#events_content h3 {
+#events_content h4 {
     text-align: center;
     font-family: 'Amiko_Bold', Arial;
     font-size: 1.2rem;
@@ -767,12 +770,12 @@ footer img {
     }
 
     #events_content p,
-    #events_content h3,
+    #events_content h4,
     .contact-us_content {
         text-align: center;
     }
 
-    #events_content h3 {
+    #events_content h4 {
         letter-spacing: 0;
 
     }
@@ -921,7 +924,8 @@ header span {
         margin-bottom: -0.7rem;
     }
 
-    .exhibits h1 {
+    .exhibits h1,
+    .exhibits h2 {
         font-size: 1.2rem;
     }
 
